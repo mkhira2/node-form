@@ -2,6 +2,9 @@
 
 Bare bones form using nodeJS that receives and renders name, email, and message.
 
+## Screenshot
+![Node-Form](/images/node-form.png)
+
 ## Installation
 
 ```

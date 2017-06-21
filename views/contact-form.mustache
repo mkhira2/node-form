@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ pageTitle }}</title>
+
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+
+    <h1>Thanks for contacting us</h1>
+
+    <form class="" action="/contact" method="post">
+      <fieldset>
+        <div>
+          <label for="Name">Name</label>
+          <input type="text" name="name" value="" placeholder="Your name">
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" value="" placeholder="Your Email">
+        </div>
+
+        <div>
+          <label for="email">Your very important thoughts</label>
+          <textarea name="message" rows="8" cols="80"></textarea>
+        </div>
+        <input type="submit" value="Send!">
+      </fieldset>
+    </form>
+  </body>
+</html>
